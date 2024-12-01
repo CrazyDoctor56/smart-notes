@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
         self.label_2 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
         self.label_2.setObjectName("label_2")
         self.verticalLayout.addWidget(self.label_2)
-        self.tags_list = QtWidgets.QListView(parent=self.verticalLayoutWidget)
+        self.tags_list = QtWidgets.QListWidget(parent=self.verticalLayoutWidget)
         self.tags_list.setObjectName("tags_list")
         self.verticalLayout.addWidget(self.tags_list)
         self.tag_search = QtWidgets.QLineEdit(parent=self.verticalLayoutWidget)

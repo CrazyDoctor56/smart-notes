@@ -77,7 +77,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QListView" name="tags_list"/>
+      <widget class="QListWidget" name="tags_list"/>
      </item>
      <item>
       <widget class="QLineEdit" name="tag_search">
